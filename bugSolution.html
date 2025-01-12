@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error Solution</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <div id="myDiv"></div>
+  <script>
+    //Correct use of innerHTML, converting the array to a string first
+    const myArray = ["This", "is", "an", "array"];
+    document.getElementById("myDiv").innerHTML = myArray.join(" "); 
+  </script>
+</body>
+</html>
